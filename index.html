@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- منع محركات البحث من أرشفة الصفحة -->
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>تنبيه أمني - نطاق فرعي محجوز للحماية</title>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+        html {
+            -webkit-text-size-adjust: 100%;
+            text-size-adjust: 100%;
+        }
+        body {
+            font-family: 'IBM Plex Sans Arabic', system-ui, -apple-system, 'Segoe UI', Tahoma, sans-serif;
+            font-weight: 400;
+            background-color: #f8f9fa;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: clamp(14px, 2.5vw, 22px);
+            min-height: 100vh;
+            min-height: 100dvh;
+            margin: 0;
+            padding: clamp(16px, 4vw, 40px) clamp(12px, 4vw, 24px);
+            text-align: center;
+            font-size: clamp(14px, 0.85rem + 0.3vw, 16px);
+            line-height: 1.8;
+            overflow-wrap: break-word;
+        }
+        .box {
+            background: #fff;
+            padding: clamp(20px, 4vw, 32px) clamp(16px, 5vw, 40px);
+            border-radius: clamp(8px, 1.5vw, 12px);
+            border-top: 5px solid #2b6cb0;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            width: 100%;
+            max-width: 600px;
+        }
+        .box h2 {
+            margin: 0 0 12px;
+            font-size: clamp(1.05em, 1em + 0.4vw, 1.25em);
+            font-weight: 700;
+            line-height: 1.5;
+            color: #1a202c;
+        }
+        .box p {
+            margin: 0 0 12px;
+        }
+        .box p:last-child {
+            margin-bottom: 0;
+        }
+        .notice {
+            background: #fffbeb;
+            border-top-color: #d69e2e;
+        }
+        .notice h2 {
+            color: #744210;
+        }
+        .notice p {
+            color: #744210;
+            font-weight: 500;
+        }
+        .btn, .email {
+            display: inline-block;
+            max-width: 100%;
+            padding: 10px clamp(16px, 4vw, 26px);
+            border-radius: 8px;
+            text-decoration: none;
+            font-family: inherit;
+            font-weight: 600;
+            font-size: 1em;
+            line-height: 1.6;
+            margin-top: 4px;
+            transition: background 0.2s;
+        }
+        .btn {
+            background: #2b6cb0;
+            color: #fff;
+        }
+        .btn:hover, .btn:focus {
+            background: #2c5282;
+        }
+        .email {
+            direction: ltr;
+            background: #eef2f7;
+            color: #2b6cb0;
+            word-break: break-all;
+        }
+        .email:hover, .email:focus {
+            background: #e2e8f0;
+        }
+        .signature {
+            margin-top: 20px;
+            padding-top: 16px;
+            border-top: 1px solid #edf2f7;
+            color: #4a5568;
+            font-weight: 300;
+        }
+        .signature strong {
+            font-weight: 600;
+        }
+        /* الجوال */
+        @media (max-width: 480px) {
+            body {
+                justify-content: flex-start;
+            }
+            .btn {
+                display: block;
+                width: 100%;
+            }
+        }
+        /* الشاشات الكبيرة */
+        @media (min-width: 1200px) {
+            .box {
+                max-width: 680px;
+            }
+        }
+        /* الشاشات القصيرة (الجوال بالوضع الأفقي) */
+        @media (max-height: 500px) and (orientation: landscape) {
+            body {
+                justify-content: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box notice" role="alert">
+        <h2>تنبيه: هذه الصفحة للفريق التقني فقط</h2>
+        <p>إن لم تكن من الفريق التقني، فيُرجى عدم مراسلة البريد الإلكتروني المذكور أدناه.</p>
+    </div>
+
+    <div class="box">
+        <h2>هل تبحث عن استمارة التسجيل؟</h2>
+        <p>لملء استمارة التسجيل وتقديم البيانات المطلوبة، يُرجى الانتقال إلى الاستمارة عبر:</p>
+        <p>
+            <a href="https://ee.moi-sy.com/single/0f623bf739c3b8d1b4c24cc19c1fb6bd" class="btn" rel="noopener">الانتقال إلى استمارة التسجيل</a>
+        </p>
+    </div>
+
+    <div class="box">
+        <h2>إلى الفريق التقنيّ والمعنيّينَ بالأمر</h2>
+        <p>رُصد في موقعكم الرسمي رابط يشير إلى هذا النطاق الفرعي، في حين كان النطاق نفسه غير مستخدم، ومتاحاً للحجز من قِبل أي شخص.</p>
+        <p>ولأن ذلك قد يتيح لأي جهة مجهولة استغلاله لنشر محتوى مضلل أو جمع بيانات الزوار باسم موقعكم، فقد حُجز النطاق مؤقتاً لحمايته من أي استغلال غير مصرّح به.</p>
+        <p>لنقل ملكية هذا النطاق إليكم فوراً ودون أي شروط أو مقابل، يُرجى التواصل عبر البريد الإلكتروني التالي:</p>
+        <p>
+            <a href="mailto:nidaashield@gmail.com" class="email">nidaashield@gmail.com</a>
+        </p>
+        <div class="signature">
+            <p>مع خالص التحية والشكر،<br><strong>نداء الرحمن محمد عبود</strong></p>
+        </div>
+    </div>
+</body>
+</html>
